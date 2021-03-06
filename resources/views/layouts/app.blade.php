@@ -30,10 +30,10 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                 </ul>
-                <select class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <select class="btn btn-sm btn-outline-secondary dropdown-toggle collapse">
                   <option selected>Nationality</option>
                   <option value="1">South African</option>
                   <option value="2">Congolese</option>
