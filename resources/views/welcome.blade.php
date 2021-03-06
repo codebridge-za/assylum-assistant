@@ -1,26 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-1">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Asylum Assist</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-        </ul>
-        <select class="btn btn-sm btn-outline-secondary dropdown-toggle">
-          <option selected>Nationality</option>
-          <option value="1">South African</option>
-          <option value="2">Congolese</option>
-        </select>
-      </div>
-    </div>
-  </nav>
   <div class="container">
   <main>
     <div class="py-5 text-center">
