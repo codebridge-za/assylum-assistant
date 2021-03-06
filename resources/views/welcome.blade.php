@@ -13,7 +13,6 @@
       <div class="">
         <h4 class="mb-3">A1. PERSONAL DETAILS OF APPLICANT</h4>
         <form class="needs-validation" novalidate>
-            <br />
           <!-- Last Name Input -->
           <div class="">
             <label for="lastName" class="form-label">Last name</label>
@@ -23,7 +22,6 @@
             </div>
           </div>
           <!-- Fornames Input -->
-          <br />
           <div class="row g-3">
             <div class="">
               <label for="firstName" class="form-label mt-2">Fornames in full</label>
@@ -97,7 +95,7 @@
 
           <br />
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Submit Application</button>
+          <button class="btn-success btn-lg" type="submit">Submit Application</button>
         </form>
       </div>
     </div>
