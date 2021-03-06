@@ -33,7 +33,7 @@
   <body class="bg-light">
     
 
-  @section('content')
+  @yield('content')
     <script src="includes/js/bootstrap.bundle.min.js"></script>
     <script src="includes/js/form-validation.js"></script>
 </body>
