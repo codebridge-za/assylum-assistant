@@ -12,9 +12,9 @@
     <div class="row">
       <div class="">
         <h4 class="mb-3">A1. PERSONAL DETAILS OF APPLICANT</h4>
-        <form class="form-group">
+        <form class="needs-validation" novalidate>
           <!-- Last Name Input -->
-          <div class="">
+          <div class="g-3">
             <label for="lastName" class="form-label">Last name</label>
             <input type="text" class="form-control" id="lastName" placeholder="Doe" value="" required>
             <div class="invalid-feedback">
@@ -22,7 +22,7 @@
             </div>
           </div>
           <!-- Fornames Input -->
-          <div class="row g-3">
+          <div class="">
             <div class="">
               <label for="firstName" class="form-label mt-2">Fornames in full</label>
               <input type="text" class="form-control" id="firstName" placeholder="John, Peter" value="" required>
@@ -32,7 +32,7 @@
             </div>
             <!-- Date of Birth Input -->
             <br />
-            <div class="col-12">
+            <div class="">
               <label for="date-of-birth" class="form-label">Date of Birth</label>
               <div class="input-group has-validation">
                 <input type="date" class="form-control" id="date-of-birth" required>
@@ -43,7 +43,7 @@
             </div>
             <!-- Gender Input-->
             <br />
-            <div class="col-12">
+            <div class="">
               <label for="gender" class="form-label">Gender</label>
               <br />
               <select class="form-select" aria-label="gender">
@@ -58,7 +58,7 @@
             </div>
             <br />
             <!-- Country of Birth -->
-            <div class="col-12">
+            <div class="">
               <label for="country-of-birth" class="form-label">Country of Birth</label>
               <input type="text" class="form-control" id="country-of-birth" placeholder="Congo" required>
               <div class="invalid-feedback">
@@ -67,7 +67,7 @@
             </div>
             <br />
             <!-- Province of Birth -->
-            <div class="col-12">
+            <div class="">
               <label for="province-of-birth" class="form-label">Province of Country of Birth</label>
               <input type="text" class="form-control" id="province-of-birth" placeholder="West District" required>
               <div class="invalid-feedback">
@@ -76,7 +76,7 @@
             </div>
             <br />
             <!-- City of Birth -->
-            <div class="col-12">
+            <div class="">
               <label for="city-of-birth" class="form-label">City of Birth</label>
               <input type="text" class="form-control" id="city-of-birth" placeholder="Kinshasa" required>
               <div class="invalid-feedback">
@@ -85,7 +85,7 @@
             </div>
             <br />
             <!-- Current Nationality -->
-            <div class="col-12">
+            <div class="">
               <label for="nationality" class="form-label">Current Nationality</label>
               <input type="text" class="form-control" id="nationality" placeholder="Congolese" required>
               <div class="invalid-feedback">
