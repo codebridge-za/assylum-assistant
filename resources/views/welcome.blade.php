@@ -12,7 +12,7 @@
     <div class="row">
       <div class="">
         <h4 class="mb-3">A1. PERSONAL DETAILS OF APPLICANT</h4>
-        <form class="needs-validation" novalidate>
+        <form class="form-group">
           <!-- Last Name Input -->
           <div class="">
             <label for="lastName" class="form-label">Last name</label>
@@ -95,7 +95,7 @@
 
           <br />
 
-          <button class="btn-success btn-lg" type="submit">Submit Application</button>
+          <button class="w-100 btn btn-primary btn-lg form-control" type="submit">Submit Application</button>
         </form>
       </div>
     </div>
