@@ -9,7 +9,7 @@
       <p class="lead">Please complete the below form with your particulars</p>
     </div>
 
-    <div class="row">
+    <div class="full-width">
       <div class="">
         <h4 class="mb-3">A1. PERSONAL DETAILS OF APPLICANT</h4>
         <form class="needs-validation" novalidate>
