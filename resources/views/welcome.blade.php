@@ -13,6 +13,7 @@
       <div class="">
         <h4 class="mb-3">A1. PERSONAL DETAILS OF APPLICANT</h4>
         <form class="needs-validation" novalidate>
+            <br />
           <!-- Last Name Input -->
           <div class="">
             <label for="lastName" class="form-label">Last name</label>
@@ -22,6 +23,7 @@
             </div>
           </div>
           <!-- Fornames Input -->
+          <br />
           <div class="row g-3">
             <div class="">
               <label for="firstName" class="form-label mt-2">Fornames in full</label>
@@ -31,6 +33,7 @@
               </div>
             </div>
             <!-- Date of Birth Input -->
+            <br />
             <div class="col-12">
               <label for="date-of-birth" class="form-label">Date of Birth</label>
               <div class="input-group has-validation">
@@ -41,8 +44,10 @@
               </div>
             </div>
             <!-- Gender Input-->
+            <br />
             <div class="col-12">
               <label for="gender" class="form-label">Gender</label>
+              <br />
               <select class="form-select" aria-label="gender">
                 <option selected>Select Gender</option>
                 <option value="1">Male</option>
@@ -53,6 +58,7 @@
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
+            <br />
             <!-- Country of Birth -->
             <div class="col-12">
               <label for="country-of-birth" class="form-label">Country of Birth</label>
@@ -61,6 +67,7 @@
                 Please enter your country of birth.
               </div>
             </div>
+            <br />
             <!-- Province of Birth -->
             <div class="col-12">
               <label for="province-of-birth" class="form-label">Province of Country of Birth</label>
@@ -69,6 +76,7 @@
                 Please enter your province of birth.
               </div>
             </div>
+            <br />
             <!-- City of Birth -->
             <div class="col-12">
               <label for="city-of-birth" class="form-label">City of Birth</label>
@@ -77,6 +85,7 @@
                 Please enter your city of birth.
               </div>
             </div>
+            <br />
             <!-- Current Nationality -->
             <div class="col-12">
               <label for="nationality" class="form-label">Current Nationality</label>
@@ -86,7 +95,7 @@
               </div>
             </div>
 
-          <hr class="my-4">
+          <br />
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">Submit Application</button>
         </form>
